@@ -1,0 +1,286 @@
+// use HPE theme
+//@import '~grommet/scss/hpe/index';
+
+@import '~grommet/scss/dxctechnology/index';
+@import '~react-joyride/lib/styles/react-joyride';
+
+#test{
+
+  display:block;
+  overflow-x: auto;
+}
+
+
+.grommetux-box.grommetux-box--direction-column.grommetux-box--responsive.grommetux-box--pad-none .grommetux-anchor {
+
+    fill: black;
+    color: black;
+    stroke: #FFFFFF;
+}
+
+td a:hover {
+  background-color: yellow;
+}
+
+.grommetux-button__label{
+   fill: #FFFFFF;
+  color: #FFFFFF;
+}
+.grommetux-tab__label{
+  fill: #FFFFFF;
+  color: #FFFFFF;
+}
+.grommetux-tab--active{
+  fill: #666666;
+  color: #666666;
+}
+.grommetux-radio-button{
+  fill: white;
+   color: white;
+}
+.grommetux-button.grommetux-button--secondary{
+
+    .grommetux-button__label{
+     fill: #000000;
+       color: #000000;
+       stroke: #000000;
+    }
+  }
+
+
+.grommetux-box.grommetux-box--direction-column.grommetux-box--align-start.grommetux-box--responsive.grommetux-box--pad-none.grommetux-background-color-index-grey-2.grommetux-background-color-index--dark{
+  .grommetux-button.grommetux-button--primary.grommetux-button--plain{
+     fill: #FFFFFF;
+    color: #FFFFFF;
+  }
+}
+.grommetux-box.grommetux-box--direction-column.grommetux-box--align-start.grommetux-box--responsive.grommetux-box--pad-none.grommetux-background-color-index-grey-2.grommetux-background-color-index--dark{
+  .grommetux-button.grommetux-button--plain{
+     fill: #FFFFFF;
+    color: #FFFFFF;
+  }
+}
+
+
+#Cancel_Edit_Dashboard{
+  fill: #000000;
+   color: #000000;
+   stroke: #000000;
+}
+
+
+.grommetux-value.grommetux-value--small.grommetux-value--align-center{
+   color: white;
+}
+.grommetux-value.grommetux-value--xsmall.grommetux-value--align-center{
+    color: white;
+}
+
+.grommetux-value.grommetux-value--medium.grommetux-value--align-center{
+  color: white;
+
+}
+/*.grommetux-value__value{
+  color: white;
+}*/
+.grommetux-box.grommetux-box--direction-row.grommetux-box--justify-between.grommetux-box--align-center.grommetux-box--pad-horizontal-none.grommetux-box--pad-vertical-none.grommetux-box--pad-between-small.grommetux-header{
+  .grommetux-button{
+    .grommetux-button__label{
+       fill: #000000;
+       color: #000000;
+       stroke: #000000;
+    }
+  }
+}
+.grommetux-footer__mirror{
+  background-color: desaturate(lighten(#000000, 15%), 0%);
+}
+
+ .grommetux-box.grommetux-box--direction-column.grommetux-box--responsive.grommetux-box--pad-none.grommetux-menu__contents{
+      .grommetux-anchor{
+         fill: #000000;
+         color: #000000;
+         stroke: #000000;
+      }
+  }
+//<<<<<<< HEAD
+
+
+//=======
+
+ .grommetux-box.grommetux-box--direction-row.grommetux-box--align-center.grommetux-box--pad-none.grommetux-title.grommetux-title--responsive.grommetux-title--truncate{
+    fill: #000000;
+    color: #000000;
+    stroke:#FFFFFF;
+
+ }
+//>>>>>>> ef9898272b55403177e5d8ce11c0fbf8194dce51
+.grommetux-anchor.grommetux-anchor--animate-icon.grommetux-anchor--icon.grommetux-anchor--icon-label.grommetux-anchor--primary
+ {.grommetux-control-icon.grommetux-control-icon-edit.grommetux-control-icon--responsive{
+   fill: #000000;
+    color: #000000;
+    stroke:#FFFFFF;
+ }}
+.grommetux-box.grommetux-box--direction-column.grommetux-box--responsive.grommetux-box--pad-none{
+
+  .grommetux-anchor{
+    fill: #000000;
+    color: #000000;
+    stroke:#FFFFFF;
+  }
+
+  /* fill: #FFFFFF;
+  color: #FFFFFF;
+   stroke:#FFFFFF;*/
+}
+
+/*.grommetux-box.grommetux-box--direction-column.grommetux-box--responsive.grommetux-box--pad-none.grommetux-box--flex-off{
+
+         fill: #000000;
+   color: #000000;
+}*/
+
+/*.grommetux-box.grommetux-box--direction-row.grommetux-box--align-center.grommetux-box--pad-none.grommetux-title.grommetux-title--responsive.grommetux-title--truncate{
+  fill: #000000;
+   color: #000000;
+   stroke: #000000;
+}
+*/
+
+
+
+  .grommetux-box.grommetux-box--direction-row.grommetux-box--justify-start.grommetux-box--align-center.grommetux-box--pad-horizontal-medium.grommetux-box--pad-vertical-small.grommetux-background-color-index-neutral-1.grommetux-background-color-index--pending.grommetux-header.grommetux-header--large
+ {.grommetux-box.grommetux-box--direction-row.grommetux-box--align-center.grommetux-box--pad-none.grommetux-title.grommetux-title--responsive.grommetux-title--truncate{
+
+
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    stroke:#FFFFFF;
+
+ } }
+.grommet_scrollableTable{
+  width: calc(100vw - 100px);
+  //width:100%;
+  .grommetux-table{
+    width: calc(100vw - 100px);
+    overflow-x: auto;
+    tr,td,th,tbody,thead{
+      display:block;
+    }
+    thead{
+      width:100%;
+      th{
+        .grommetux-box{
+          align-items: flex-start;
+        }
+      }
+    }
+    tbody{
+      height:500px;
+      overflow-y:auto;
+      width:100%;
+    }
+    tr:after{
+      content: ' ';
+      display:block;visibility: hidden;
+      clear:both;
+    }
+  }
+   // Asset - Planned Sunset list
+  //Asset - Details
+
+  &.grommet_ten_columns{
+      .grommetux-table{
+        tbody td,
+        thead th{
+          width: 10%;
+          float:left;
+          word-wrap: break-word;
+        }
+      }
+  }
+  // Release server status details.
+  //Incidents - COE open Tickets.
+  &.grommet_eight_columns{
+        .grommetux-table{
+          tbody td,
+          thead th{
+            width: 12%;
+            float:left;
+            word-wrap: break-word;
+          }
+        }
+    }
+
+  //Summary - Details
+  &.grommet_four_columns{
+      .grommetux-table{
+        tbody td,
+        thead th{
+          width: 25%;
+          float:left;
+          word-wrap: break-word;
+        }
+      }
+  }
+
+  //RFC - Open TSA RFC List
+  &.grommet_twelve_columns{
+      .grommetux-table{
+        tbody td,
+        thead th{
+          width: 8%;
+          float:left;
+          word-wrap: break-word;
+        }
+      }
+  }
+
+// RFC - Open RFC ADR Tally
+&.grommet_five_columns{
+    .grommetux-table{
+      tbody td,
+      thead th{
+        width: 20%;
+        float:left;
+        word-wrap: break-word;
+      }
+    }
+  }
+    //Under KPI :Problem Tickets, Chart Name: Open PMR
+    &.grommet_thirteen_columns{
+        .grommetux-table{
+          tbody td,
+          thead th{
+            width: 12%;
+            float:left;
+            word-wrap: break-word;
+          }
+        }
+    }
+    //Problem Tickets - Details
+    &.grommet_thirtysix_columns{
+        .grommetux-table{
+          table{
+            display:block;
+            overflow-x: auto;
+          }
+          tbody td,
+          thead th{
+            float:left;
+            word-wrap: break-word;
+          }
+        }
+    }
+    // Infrastructure - Mission Critical and Top 5
+   &.grommet_three_columns{
+       .grommetux-table{
+         tbody td,
+         thead th{
+           width: 12%;
+           float:left;
+           word-wrap: break-word;
+         }
+       }
+   }
+}
